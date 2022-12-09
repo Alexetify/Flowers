@@ -508,6 +508,37 @@ span.red
 {
     color: #181818;
 }
+.modal 
+{
+    display: none;
+}
+.modal-title 
+{
+    color: #f24841;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.modal-input
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.button-modal
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ff3469;
+    color: white;
+    padding: 30px 65px 26px 65px;
+    margin-top: 36px;
+    border: none;
+    margin-left: 470px;
+}
 @media (max-width:768) 
 {
     .header

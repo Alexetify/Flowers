@@ -29,7 +29,7 @@
                 <div class="col-lg-3 col-md-5 header-contacts">
                     <a href="tel:+78 (800) 654-87-45" class="header-phone">8 (800) 654-87-45</a>
                     <span class="header-info">Звонок по России бесплатный</span>
-                    <a href="#" class="callback">Заказать звонок</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="callback">Заказать звонок</a>
                 </div>
                 <!-- /.col-md-3 -->
             </div>
@@ -74,7 +74,7 @@
                 </div>
                 <!-- /.slider container  -->
                 <span class="main-cta">Закажите эксклюзивный букет со <span>скидкой 10%</span></span>
-                <a href="#" class="main-button">Заказать букет</a>
+                <a data-fancybox data-src="#modal" href="javascript:;" class="main-button">Заказать букет</a>
         </div>
         <!-- /.container -->
     </section>
@@ -590,6 +590,14 @@
         <!-- /.container -->
     </footer>
     <!-- /.footer-two -->
+    <div class="modal" id="modal">
+        <h2 class="modal-title">Закажите обратный звонок</h2>
+        <form action="#">
+            <input type="tel"class="modal-input" placeholder="+7(__)__-__-___ ">
+            <button class="button-modal">Перезвоните мне</button>
+        </form>
+    </div>
+    <!-- /.modal -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
